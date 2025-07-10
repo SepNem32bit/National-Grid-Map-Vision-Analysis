@@ -1,6 +1,9 @@
 # National Grid Map Information System (HM Registry)
 
-This project is a complete computer vision pipeline designed to digitize highlited area and information of historical land registry maps. It automatically identifies land parcels and reference numbers, extracts the text using OCR, and georeferences the parcel boundaries into a final, usable geospatial file.
+**Full Name**: Sep Nemat  
+**Email Address**: sepehr.nem@gmail.com  
+
+This project is a complete computer vision pipeline designed to digitize highlited area and information of historical land registry maps. It automatically identifies land parcels and reference numbers, extracts the text using OCR, and georeferences the parcel boundaries into a final, usable geospatial file.  
 
 ---
 
