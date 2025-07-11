@@ -12,7 +12,7 @@ def run_full_pipeline():
     """
     Runs the full pipeline with visualization at each step.
     """
-    # --- Configuration (unchanged) ---
+    # --- Configuration ---
     CONFIG = {
         'image_path': '/content/drive/MyDrive/HM Registry/stockton_1.png',
         'sam_checkpoint_path': '/content/drive/MyDrive/HM Registry/Segmentation Model/sam_vit_h_4b8939.pth',
@@ -25,7 +25,7 @@ def run_full_pipeline():
     }
 
     try:
-        # --- Preprocessing, Segmentation, Classification (unchanged) ---
+        # --- Preprocessing, Segmentation, Classification ---
         print("\n--- STEP 1: PREPROCESSING ---")
         processor = ImageProcessor(CONFIG['image_path'])
         processed_image = processor.preprocess(
